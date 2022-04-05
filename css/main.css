@@ -1,0 +1,56 @@
+.body {
+    background-color: #f39c12;
+    width: 100%;
+    height: 100%;
+    font-family: Poppins, sans-serif;
+}
+
+.content-area {
+    width: 35%;
+    height: auto;
+}
+
+.main-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.btn {
+    width: 100%;
+    height: 10%;
+    border-color: #f39c12;
+    border-radius: 20px;
+    border-width: 3px;
+}
+
+.btn:hover {
+    background-color: #f39c12;
+    color: white;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.form-control:hover {
+    border-width: 2px;
+    border-color: #f39c12;
+    cursor: pointer;
+}
+
+.interest-display {
+    width: 30%;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.display-text {
+    display: none;
+}
+
+.footer-text {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}

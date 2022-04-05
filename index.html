@@ -1,10 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <title>Interest Online Calculator</title>
-</head>
-<body>
 
+    <!--css files ----------------------------------------------------------------------------------------------------->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--google font --------------------------------------------------------------------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+<body class="body">
+
+<div class="container w-100 h-100 d-flex justify-content-center align-items-center mt-3">
+    <h1 class="text-white">Interest Online Calculator</h1>
+</div>
+
+<div class="container content-area mt-5">
+    <form class="main-form">
+
+        <!--amount ---------------------------------------------------------------------------------------------------->
+        <div class="form-group">
+            <label> Amount</label>
+            <input type="number"
+                   class="form-control mt-1"
+                   id="amountId"
+                   aria-describedby="amountHelp"
+                   placeholder="Enter your amount"
+            >
+        </div>
+
+        <!--interest -------------------------------------------------------------------------------------------------->
+        <div class="form-group">
+            <label class="mt-3">Interest rate (%)</label>
+            <input
+                    type="text"
+                    class="form-control mt-1"
+                    id="interestId"
+                    placeholder="Enter your interest rate"
+            >
+        </div>
+
+        <!--number of year -------------------------------------------------------------------------------------------->
+        <div class="form-group">
+            <label class="mt-3">Number of year</label>
+            <input
+                    type="number"
+                    class="form-control mt-1"
+                    id="yearId"
+                    placeholder="Enter your want number of year"
+            >
+        </div>
+
+        <!--time in year ---------------------------------------------------------------------------------------------->
+        <div class="form-group">
+            <label class="mt-3">Time in year</label>
+            <input
+                    type="number"
+                    class="form-control mt-1"
+                    id="timeInYearId"
+                    placeholder="Enter your time in year"
+            >
+        </div>
+
+        <button type="button" class="btn mt-4">Calculate</button>
+    </form>
+</div>
+
+<div class="container interest-display mt-4 justify-content-center align-items-center d-flex">
+    <h2 class="text-white display-text"> Interest total amount is : <span id="interest-data"></span></h2>
+</div>
+
+<div class="container d-flex justify-content-center align-items-center">
+    <p class="text-white">Develop by
+        <a class="footer-text"
+                href="https://github.com/Mindula-Dilthushan">Mindula Dilthushan
+        </a> &nbsp&nbsp ^_~
+    </p>
+</div>
+
+<!--js files ---------------------------------------------------------------------------------------------------------->
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
