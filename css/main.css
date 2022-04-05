@@ -21,11 +21,12 @@
 }
 
 .btn {
-    width: 100%;
+    width: 45%;
     height: 10%;
     border-color: #f39c12;
     border-radius: 20px;
     border-width: 3px;
+    margin: 5px;
 }
 
 .btn:hover {
@@ -44,13 +45,16 @@
 }
 
 .interest-display {
-    width: 30%;
+    width: 50%;
     height: 80px;
-    border-radius: 10px;
 }
 
 .display-text {
     display: none;
+}
+
+#interest_data {
+    font-weight: bold;
 }
 
 .footer-text {

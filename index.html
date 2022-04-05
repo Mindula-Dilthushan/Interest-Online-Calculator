@@ -72,23 +72,28 @@
             >
         </div>
 
-        <button type="button" class="btn mt-4">Calculate</button>
+        <div class="container justify-content-center align-items-center d-flex button-div mt-4">
+            <button type="button" class="btn" id="calculateButton">Calculate</button>
+            <button type="button" class="btn" id="cleanButton">Clear</button>
+        </div>
     </form>
 </div>
 
 <div class="container interest-display mt-4 justify-content-center align-items-center d-flex">
-    <h2 class="text-white display-text"> Interest total amount is : <span id="interest-data"></span></h2>
+    <h2 class="text-white display-text" id="display_data"> Interest total amount is : <span id="interest_data"></span>
+    </h2>
 </div>
 
 <div class="container d-flex justify-content-center align-items-center">
     <p class="text-white">Develop by
         <a class="footer-text"
-                href="https://github.com/Mindula-Dilthushan">Mindula Dilthushan
+           href="https://github.com/Mindula-Dilthushan">Mindula Dilthushan
         </a> &nbsp&nbsp ^_~
     </p>
 </div>
 
 <!--js files ---------------------------------------------------------------------------------------------------------->
+<script src="js/jquery-3.6.0.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
 </body>
