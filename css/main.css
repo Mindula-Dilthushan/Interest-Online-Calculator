@@ -46,7 +46,7 @@
 }
 
 .display-text {
-    display: none;
+    display: block;
 }
 
 .footer-text {
