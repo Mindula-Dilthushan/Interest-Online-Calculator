@@ -1,3 +1,7 @@
+/*<!--Interest Online Calculator-->*/
+/*<!--Mindula Dilthushan-->*/
+/*<!--minduladilthushan1@gmail.com-->*/
+/*<!--2020-04-05-->*/
 .body {
     background-color: #f39c12;
     width: 100%;
@@ -46,7 +50,7 @@
 }
 
 .display-text {
-    display: block;
+    display: none;
 }
 
 .footer-text {
